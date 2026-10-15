@@ -1,4 +1,3 @@
-```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,10 +23,10 @@ class NodoGeneral<T> {
 }
 
 public class Main {
-    // Metodo recursivo para calcular la altura del arbol
+    // La altura del arbol
     public static int altura(NodoGeneral<?> nodo) {
         if (nodo.getHijos().isEmpty()) {
-            return 0; // Caso base: si es una hoja, retorna altura 0
+            return 0; //Si es una hoja, retorna altura 0
         }
         int max = 0;
         for (NodoGeneral<?> hijo : nodo.getHijos()) {
@@ -54,7 +53,7 @@ public class Main {
         NodoGeneral<String> backend = new NodoGeneral<>("Equipo Backend");
         NodoGeneral<String> frontend = new NodoGeneral<>("Equipo Frontend");
 
-        // Construccion de la jerarquia (Mismo modelo de la Guia 1)
+        // Construccion
         raiz.agregarHijo(tecnologia);
         raiz.agregarHijo(finanzas);
 
@@ -67,7 +66,7 @@ public class Main {
         desarrollo.agregarHijo(backend);
         desarrollo.agregarHijo(frontend);
 
-        // Calculo y prueba de la altura del arbol
+        // Calculo-prueba de la altura del arbol
         int alturaTotal = altura(raiz);
         
         System.out.println("=== ANATOMIA Y PROPIEDADES DEL ARBOL (CASO EMPRESA) ===");
@@ -75,4 +74,3 @@ public class Main {
         System.out.println("Altura total calculada por el metodo recursivo: " + alturaTotal);
     }
 }
-```
