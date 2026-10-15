@@ -1,10 +1,14 @@
 Nodo,Tipo,Nivel,Grado,Profundidad
 Empresa Global,Raíz,0,2,0
 Tecnología,Interno,1,2,1
-Finanzas,Interno,1,2,1
+Finanzas,Interno,1,3,1
 Desarrollo de Software,Interno,2,2,2
-Soporte Técnico,Interno,2,0,2
-Contabilidad,Interno,2,0,2
-Auditoría,Interno,2,0,2
+Soporte Técnico,Interno,2,1,2
+Contabilidad,Interno,2,1,2
+Auditoria,Interno,2,1,2
+Recursos Humanos,Hoja,2,0,2
 Equipo Backend,Hoja,3,0,3
 Equipo Frontend,Hoja,3,0,3
+Mesa de Ayuda,Hoja,3,0,3
+Nómina,Hoja,3,0,3
+Legal,Hoja,3,0,3
