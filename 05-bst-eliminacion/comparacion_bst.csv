@@ -1,0 +1,4 @@
+Operacion_Eliminacion,Tipo_de_Nodo,Altura_Antes,Altura_Despues,Complejidad_O
+Eliminar Hoja (20),Nodo sin hijos,3,3,O(log n) / O(h)
+Eliminar Un Hijo (30),Nodo con 1 hijo,3,3,O(log n) / O(h)
+Eliminar Dos Hijos / Raiz (50),Nodo con 2 hijos (Raiz),3,2,O(log n) / O(h)
