@@ -1,0 +1,3 @@
+=== ANATOMÍA Y PROPIEDADES DEL ÁRBOL ===
+Raíz: Empresa Global
+Altura total calculada recursivamente: 3
