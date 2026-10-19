@@ -1,0 +1,10 @@
+=== JERARQUÍA ORGANIZACIONAL ===
+- Empresa Global
+    - Tecnología
+        - Desarrollo de Software
+            - Equipo Backend
+            - Equipo Frontend
+        - Soporte Técnico
+    - Finanzas
+        - Contabilidad
+        - Auditoría
