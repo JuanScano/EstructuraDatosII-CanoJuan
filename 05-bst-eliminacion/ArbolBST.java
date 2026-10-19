@@ -1,3 +1,5 @@
+package 05-bst-eliminacion;
+
 public class ArbolBST {
     private NodoArbol<Integer> raiz;
 

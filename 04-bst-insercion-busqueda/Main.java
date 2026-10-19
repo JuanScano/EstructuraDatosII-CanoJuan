@@ -1,3 +1,5 @@
+package 04-bst-insercion-busqueda;
+
 public class Main {
     public static void main(String[] args) {
         ArbolBST bstAleatorio = new ArbolBST();

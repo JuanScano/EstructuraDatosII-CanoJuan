@@ -1,3 +1,5 @@
+package 05-bst-eliminacion;
+
 public class NodoArbol<T> {
     private T dato;
     private NodoArbol<T> izquierdo;

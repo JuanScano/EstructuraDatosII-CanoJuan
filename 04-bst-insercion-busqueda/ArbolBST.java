@@ -1,3 +1,5 @@
+package 04-bst-insercion-busqueda;
+
 public class ArbolBST {
     private NodoArbol<Integer> raiz;
     private int contadorComparaciones = 0;

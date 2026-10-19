@@ -1,3 +1,5 @@
+package 04-bst-insercion-busqueda;
+
 public class NodoArbol<T> {
     private T dato;
     private NodoArbol<T> izquierdo;

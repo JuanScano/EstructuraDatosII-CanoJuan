@@ -1,3 +1,5 @@
+package 05-bst-eliminacion;
+
 public class Main {
     public static void main(String[] args) {
         ArbolBST bst = new ArbolBST();
