@@ -16,21 +16,21 @@ public class Main {
         NodoGeneral<String> raiz = new NodoGeneral<>("Empresa Global");
 
         // Nivel 1
-        NodoGeneral<String> tecnologia = new NodoGeneral<>("Tecnología");
+        NodoGeneral<String> tecnologia = new NodoGeneral<>("Tecnologia");
         NodoGeneral<String> finanzas = new NodoGeneral<>("Finanzas");
 
         // Nivel 2
         NodoGeneral<String> desarrollo = new NodoGeneral<>("Desarrollo de Software");
-        NodoGeneral<String> soporte = new NodoGeneral<>("Soporte Técnico");
+        NodoGeneral<String> soporte = new NodoGeneral<>("Soporte Tecnico");
         NodoGeneral<String> contabilidad = new NodoGeneral<>("Contabilidad");
-        NodoGeneral<String> auditoria = new NodoGeneral<>("Auditoría");
+        NodoGeneral<String> auditoria = new NodoGeneral<>("Auditoria");
         NodoGeneral<String> rrhh = new NodoGeneral<>("Recursos Humanos");
 
         // Nivel 3 (Hojas)
         NodoGeneral<String> backend = new NodoGeneral<>("Equipo Backend");
         NodoGeneral<String> frontend = new NodoGeneral<>("Equipo Frontend");
         NodoGeneral<String> mesaAyuda = new NodoGeneral<>("Mesa de Ayuda");
-        NodoGeneral<String> nomina = new NodoGeneral<>("Nómina");
+        NodoGeneral<String> nomina = new NodoGeneral<>("Nomina");
         NodoGeneral<String> legal = new NodoGeneral<>("Legal");
 
         // Construcción de la jerarquía (12 nodos / 4 niveles: 0, 1, 2, 3)
@@ -53,8 +53,8 @@ public class Main {
 
         // Imprimir altura-calculada
         int alturaCalculada = altura(raiz);
-        System.out.println("=== ANATOMÍA Y PROPIEDADES DEL ÁRBOL ===");
-        System.out.println("Raíz: " + raiz.getDato());
+        System.out.println("=== ANATOMIA Y PROPIEDADES DEL ARBOL ===");
+        System.out.println("Raiz: " + raiz.getDato());
         System.out.println("Altura total calculada recursivamente: " + alturaCalculada);
     }
 }
