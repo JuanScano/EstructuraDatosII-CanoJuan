@@ -11,14 +11,14 @@ public class Main {
             bst.insertar(codigo);
         }
 
-        System.out.println("=== EXPLORADORES DEL ÁRBOL: RECORRIDOS ===");
-        System.out.print("1. Preorden    (Raíz-Izq-Der): ");
+        System.out.println("=== EXPLORADORES DEL ARBOL: RECORRIDOS ===");
+        System.out.print("1. Preorden    (Raiz-Izq-Der): ");
         bst.preorden();
 
-        System.out.print("2. Inorden     (Izq-Raíz-Der): ");
+        System.out.print("2. Inorden     (Izq-Raiz-Der): ");
         bst.inorden();
 
-        System.out.print("3. Postorden   (Izq-Der-Raíz): ");
+        System.out.print("3. Postorden   (Izq-Der-Raiz): ");
         bst.postorden();
 
         System.out.print("4. Por Niveles (Anchura/Cola): ");
