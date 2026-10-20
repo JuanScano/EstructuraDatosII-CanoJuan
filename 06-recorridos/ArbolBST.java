@@ -35,7 +35,7 @@ public class ArbolBST {
         }
     }
 
-    // 2. Recorrido Inorden (Izquierda -> Raíz -> Derecha) -> Devuelve claves ordenadas en un BST
+    // 2. Recorrido Inorden (Izquierda -> Raiz -> Derecha) -> Devuelve claves ordenadas en un BST
     public void inorden() {
         inordenRec(raiz);
         System.out.println();
