@@ -1,29 +1,28 @@
-=== RECORRIDO Y VALIDACIÓN DE ÁRBOL BINARIO (7 NODOS) ===
-Nodo Actual: Raíz: Sistema Base
-  -> Hijo Izquierdo de Raíz: Sistema Base: Módulo Autenticación
-  -> Hijo Derecho de Raíz: Sistema Base: Módulo Base de Datos
+=== RECORRIDO Y VALIDACION DE ARBOL BINARIO (7 NODOS) ===
+Nodo Actual: Raiz: Sistema Base
+-> Hijo Izquierdo de Raiz: Sistema Base: Modulo Autenticacion
+-> Hijo Derecho de Raiz: Sistema Base: Modulo Base de Datos
 -----------------------------------
-Nodo Actual: Módulo Autenticación
-  -> Hijo Izquierdo de Módulo Autenticación: Login OAuth
-  -> Hijo Derecho de Módulo Autenticación: Registro Usuario
+Nodo Actual: Modulo Autenticacion
+-> Hijo Izquierdo de Modulo Autenticacion: Login OAuth
+-> Hijo Derecho de Modulo Autenticacion: Registro Usuario
 -----------------------------------
 Nodo Actual: Login OAuth
-  -> Hijo Izquierdo de Login OAuth: null
-  -> Hijo Derecho de Login OAuth: null
+-> Hijo Izquierdo de Login OAuth: null
+-> Hijo Derecho de Login OAuth: null
 -----------------------------------
 Nodo Actual: Registro Usuario
-  -> Hijo Izquierdo de Registro Usuario: null
-  -> Hijo Derecho de Registro Usuario: null
+-> Hijo Izquierdo de Registro Usuario: null
+-> Hijo Derecho de Registro Usuario: null
 -----------------------------------
-Nodo Actual: Módulo Base de Datos
-  -> Hijo Izquierdo de Módulo Base de Datos: Conexión SQL
-  -> Hijo Derecho de Módulo Base de Datos: Backup Automático
+Nodo Actual: Modulo Base de Datos
+-> Hijo Izquierdo de Modulo Base de Datos: Conexion SQL
+-> Hijo Derecho de Modulo Base de Datos: Backup Automatico
 -----------------------------------
-Nodo Actual: Conexión SQL
-  -> Hijo Izquierdo de Conexión SQL: null
-  -> Hijo Derecho de Conexión SQL: null
+Nodo Actual: Conexion SQL
+-> Hijo Izquierdo de Conexion SQL: null
+-> Hijo Derecho de Conexion SQL: null
 -----------------------------------
-Nodo Actual: Backup Automático
-  -> Hijo Izquierdo de Backup Automático: null
-  -> Hijo Derecho de Backup Automático: null
------------------------------------
+Nodo Actual: Backup Automatico
+-> Hijo Izquierdo de Backup Automatico: null
+-> Hijo Derecho de Backup Automatico: null
