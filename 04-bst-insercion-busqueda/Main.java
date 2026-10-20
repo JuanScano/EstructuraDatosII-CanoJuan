@@ -19,13 +19,13 @@ public class Main {
             bstOrdenado.insertar(c);
         }
 
-        System.out.println("=== COMPARACIÓN DE EFICIENCIA EN ÁRBOL BST ===");
-        System.out.println("BST con Inserción Aleatoria -> Altura: " + bstAleatorio.obtenerAltura());
+        System.out.println("=== COMPARACION DE EFICIENCIA EN ARBOL BST ===");
+        System.out.println("BST con Insercion Aleatoria -> Altura: " + bstAleatorio.obtenerAltura());
         System.out.println("BST con Inserción Ordenada  -> Altura: " + bstOrdenado.obtenerAltura());
 
         // Pruebas de búsqueda
         int[] valoresBusqueda = {35, 80, 99, 10, 55};
-        System.out.println("\n--- PRUEBAS DE BÚSQUEDA EN BST ALEATORIO ---");
+        System.out.println("--- PRUEBAS DE BUSQUEDA EN BST ALEATORIO ---");
         for (int v : valoresBusqueda) {
             boolean encontrado = bstAleatorio.buscar(v);
             System.out.println("Buscando " + v + ": " + (encontrado ? "Encontrado" : "No encontrado") + 
