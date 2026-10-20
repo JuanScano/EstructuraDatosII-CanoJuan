@@ -30,13 +30,13 @@ public class Main {
         // Creación manual de un árbol binario de 7 nodos (Estructura de Expresión o Jerárquica)
         NodoArbol<String> raiz = new NodoArbol<>("Raíz: Sistema Base");
 
-        NodoArbol<String> izq1 = new NodoArbol<>("Módulo Autenticación");
-        NodoArbol<String> der1 = new NodoArbol<>("Módulo Base de Datos");
+        NodoArbol<String> izq1 = new NodoArbol<>("Modulo Autenticacion");
+        NodoArbol<String> der1 = new NodoArbol<>("Modulo Base de Datos");
 
         NodoArbol<String> izq2 = new NodoArbol<>("Login OAuth");
         NodoArbol<String> der2 = new NodoArbol<>("Registro Usuario");
         NodoArbol<String> izq3 = new NodoArbol<>("Conexión SQL");
-        NodoArbol<String> der3 = new NodoArbol<>("Backup Automático");
+        NodoArbol<String> der3 = new NodoArbol<>("Backup Automatico");
 
         // Enlazando referencias izquierda y derecha
         raiz.setIzquierdo(izq1);
@@ -48,7 +48,7 @@ public class Main {
         der1.setIzquierdo(izq3);
         der1.setDerecho(der3);
 
-        System.out.println("=== RECORRIDO Y VALIDACIÓN DE ÁRBOL BINARIO (7 NODOS) ===");
+        System.out.println("=== RECORRIDO Y VALIDACION DE ARBOL BINARIO (7 NODOS) ===");
         imprimirRaizYHijos(raiz);
     }
 }
