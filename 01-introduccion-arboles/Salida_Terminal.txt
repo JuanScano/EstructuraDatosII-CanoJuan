@@ -1,6 +1,6 @@
-=== JERARQUÍA ORGANIZACIONAL ===
+=== JERARQUIA ORGANIZACIONAL ===
 - Empresa Global
-    - Tecnología
+    - Tecnologia
         - Desarrollo de Software
             - Equipo Backend
             - Equipo Frontend
