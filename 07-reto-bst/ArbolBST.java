@@ -17,7 +17,7 @@ public class ArbolBST {
         } else if (producto.getCodigo() > nodo.getDato().getCodigo()) {
             nodo.setDerecho(insertarRec(nodo.getDerecho(), producto));
         }
-        // Si el código ya existe, no se duplica (mantiene invariante)
+        // Si el codigo ya existe, no se duplica (mantiene invariante)
         return nodo;
     }
 
