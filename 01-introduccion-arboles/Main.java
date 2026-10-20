@@ -12,14 +12,14 @@ public class Main {
         NodoGeneral<String> raiz = new NodoGeneral<>("Empresa Global");
 
         // Nivel 1
-        NodoGeneral<String> tecnologia = new NodoGeneral<>("Tecnología");
+        NodoGeneral<String> tecnologia = new NodoGeneral<>("Tecnologia");
         NodoGeneral<String> finanzas = new NodoGeneral<>("Finanzas");
 
         // Nivel 2
         NodoGeneral<String> desarrollo = new NodoGeneral<>("Desarrollo de Software");
-        NodoGeneral<String> soporte = new NodoGeneral<>("Soporte Técnico");
+        NodoGeneral<String> soporte = new NodoGeneral<>("Soporte Tecnico");
         NodoGeneral<String> contabilidad = new NodoGeneral<>("Contabilidad");
-        NodoGeneral<String> auditoria = new NodoGeneral<>("Auditoría");
+        NodoGeneral<String> auditoria = new NodoGeneral<>("Auditoria");
 
         // Nivel 3
         NodoGeneral<String> backend = new NodoGeneral<>("Equipo Backend");
@@ -39,7 +39,7 @@ public class Main {
         desarrollo.agregarHijo(frontend);
 
         // Imprimir árbol en consola
-        System.out.println("=== JERARQUÍA ORGANIZACIONAL ===");
+        System.out.println("=== JERARQUIA ORGANIZACIONAL ===");
         imprimirArbol(raiz, "");
     }
 }
