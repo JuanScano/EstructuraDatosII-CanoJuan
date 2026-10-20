@@ -1,8 +1,8 @@
-=== COMPARACIÓN DE EFICIENCIA EN ÁRBOL BST ===
-BST con Inserción Aleatoria -> Altura: 4
-BST con Inserción Ordenada  -> Altura: 14
+=== COMPARACION DE EFICIENCIA EN ARBOL BST ===
+BST con Insercion Aleatoria -> Altura: 4
+BST con Insercion Ordenada  -> Altura: 14
 
---- PRUEBAS DE BÚSQUEDA EN BST ALEATORIO ---
+--- PRUEBAS DE BUSQUEDA EN BST ALEATORIO ---
 Buscando 35: Encontrado (Comparaciones: 4)
 Buscando 80: Encontrado (Comparaciones: 2)
 Buscando 99: No encontrado (Comparaciones: 4)
